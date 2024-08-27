@@ -1,0 +1,56 @@
+﻿EXCEL ASSIGNMENT – 1
+Using the dataset provided to you (EXCEL_Assignment_Problem.xlsx), answer the following questions by creating new columns or new sheets as appropriate.
+Numeric Formatting
+	1
+	Convert the Order date column into a date format of Year-Month-Day
+	2
+	Convert the price column into currency format with INR rupee symbol preceding the value
+	
+
+	
+
+	Style Formatting
+	1
+	Make the header row bold and fill with blue colour
+	2
+	Apply all borders to the dataset and “thick” outline border
+	
+
+	
+
+	Data Manipulation/Analysis
+	1
+	Apply "Named Ranges" to all the columns using row 1 as the name for each range
+	2
+	Find the "Minimum" and "Maximum" values for Price and Quantity using the named ranges
+	3
+	Create a new sheet named "Products". Copy the entire "Product_Type" column to this sheet and deduplicate the values so that only unique product_types remain
+	4
+	Filter the data to only look at "California" sales. Copy this subset into a new sheet named "California Sales"
+	5
+	Create a new sheet named "Sales Person Names". Copy the column "Sales Person" from Data tab, de-duplicate it. Using text-to-columns, split the name into first name and last name
+	6
+	Convert the data set into a "TABLE"
+	7
+	Find the total Price and Quantity using "Autosum" feature
+	
+
+	
+
+	Formulas
+	
+
+	1
+	Create a "Revenue" column which is product of Price and Quantity
+	2
+	Using the deduped Product names in "Products" sheet created by you, find the average price, average quantity, average revenue, count of rows using "IF/IFS" formulas
+	3
+	Using the "California Sales" sheet created by you, find the total count of rows, average price, quantity and total revenue using appropriate functions
+	4
+	Using Date functions, find the year and then the year-month with the maximum revenue
+	5
+	Find the Length of each sales person’s name
+	6
+	In a new column, concatenate SalesPerson and Manager Name separated by a "-"
+	7
+	Create 3 new columns - Year, Month and Day. Use DATE Functions to derive these values from the Order Date column
